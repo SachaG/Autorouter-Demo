@@ -1,0 +1,29 @@
+<head>
+  <title>autorouting</title>
+</head>
+
+<body>
+
+</body>
+
+<template name="main">
+  <h1>Autorouting Demo</h1>
+  <ul>
+    <li><a href="/posts">Posts</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+</template>
+
+<template name="posts">
+  <h1>Posts</h1>
+  <ul>
+    {{#each posts}}
+      <li><a href=/posts/{{_id}}>{{title}}</a></li>
+    {{/each}}
+  </ul>
+</template>
+
+<template name="about">
+  <h1>About</h1>
+  <p>Lorem ipsum dolor sit amet.</p>
+</template>
