@@ -6,6 +6,5 @@
 
 meteor-platform
 autopublish
-insecure
 anti:fake
-sacha:autorouting
+sacha:autorouter

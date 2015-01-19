@@ -1,4 +1,4 @@
-Posts = new Meteor.Collection("posts");
+Posts = new Mongo.Collection("posts");
 
 if (Meteor.isServer) {
   Meteor.startup(function () {

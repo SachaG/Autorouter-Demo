@@ -6,11 +6,12 @@
 
 </body>
 
-<template name="main">
+<template name="home">
   <h1>Autorouting Demo</h1>
   <ul>
     <li><a href="/posts">Posts</a></li>
     <li><a href="/about">About</a></li>
+    <li><a href="/otherPage">Other Page</a></li>
   </ul>
 </template>
 
@@ -23,7 +24,17 @@
   </ul>
 </template>
 
+<template name="post">
+  <h1>{{title}}</h1>
+  <p>{{body}}</p>
+</template>
+
 <template name="about">
   <h1>About</h1>
   <p>Lorem ipsum dolor sit amet.</p>
+</template>
+
+<template name="otherPage">
+  <h1>Other Page</h1>
+  <p>The green fox jumped over the nervous hedgehog.</p>
 </template>
